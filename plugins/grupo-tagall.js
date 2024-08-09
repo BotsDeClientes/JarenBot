@@ -14,7 +14,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
 }
-  let teks = `╭─────────\n│❏ 𝘖𝘭𝘺𝘮𝘱𝘶𝘴 𝘛𝘦 𝘐𝘯𝘷𝘰𝘤𝘢 🔱\n│❏ 𝘖𝘭𝘺𝘮𝘱𝘶𝘴𝘓𝘰𝘷𝘦𝘳𝘴: *${participants.length}* ${oi}\n│❏𝘝𝘦𝘯𝘥𝘦𝘥𝘰𝘳𝘦𝘴: ${emot}\n│\n`;
+  let teks = `╭─────────\n│❏ 𝘑𝘢𝘳𝘦𝘯 𝘛𝘦 𝘐𝘯𝘷𝘰𝘤𝘢 💸\n│❏ 𝘑𝘢𝘳𝘦𝘯𝘓𝘰𝘷𝘦𝘳𝘴: *${participants.length}* ${oi}\n│❏ 𝘝𝘦𝘯𝘥𝘦𝘥𝘰𝘳𝘦𝘴: ${emot}\n│\n`;
   for (const mem of participants) {
     teks += `│🔱 @${mem.id.split('@')[0]}\n`;
   }
